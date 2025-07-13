@@ -6,6 +6,8 @@ The project structure follows clean architectural principles, with modular separ
 
 This application was developed as part of a **Frontend Mentor challenge**, adopted by the **DevQuest course** to fulfill one of the tasks in the **Advanced JavaScript module**. It demonstrates proficiency in asynchronous operations, API integration, and modern component-based design.
 
+🔗 [Frontend Mentor Challenge](https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db)  
+
 ---
 
 ## 📌 Features
