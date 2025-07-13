@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./src/output.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./src/images/favicon-32x32.png">
+  <script src="./src/js/index.js" defer></script>
+  <title>Frontend Mentor | Advice generator app</title>
+</head>
+
+<body class="bg-appblue-950">
+  <main class="h-screen flex justify-center items-center">
+    <section class="w-72 min-h-[17rem] bg-appblue-900 rounded-lg relative sm:w-96 lg:w-[30rem]">
+      <div class="px-4 pt-8 pb-6 text-center sm:px-6">
+        <h1 id="id-advice"
+          class="text-[.65rem] text-appgreen-300 tracking-[.25em] uppercase mb-6 min-h-4 sm:text-xs"></h1>
+        <div id="text-container" class="min-h-28 flex justify-center items-center">
+          <p id="advice" class="text-appblue-200 font-bold text-xl mb-6 sm:text-2xl">
+            Click the button for some advice
+          </p>
+        </div>
+        <img class="w-full" src="./src/images/pattern-divider-mobile.svg" alt="">
+      </div>
+      <div class="h-8">
+        <button id="advice-btn"
+          class="absolute w-14 h-14 bg-appgreen-300 rounded-full flex justify-center items-center left-1/2 bottom-0 transform -translate-x-1/2 translate-y-1/2 cursor-pointer hover:shadow-[0_0_24px_hsl(150,100%,66%)] sm:">
+          <img class="w-6 h-6" src="./src/images/icon-dice.svg" alt="">
+        </button>
+      </div>
+    </section>
+  </main>
+</body>
+
+</html>
